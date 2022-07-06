@@ -1,0 +1,10 @@
+spring:
+  aop:
+    proxy-target-class: true
+    auto: true
+ftp:
+  url: ${FTP_HOST:ftp-url}
+  port: ${FTP_PORT:8810}
+  username: ${FTP_USERNAME:root}
+  password: ${FTP_PASSWORD:123456}
+  path: ${FTP_PATH:/mnt/waters}

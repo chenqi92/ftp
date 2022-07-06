@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "ftp.url",
+    "description": "ftp ip地址",
+    "defaultValue": ""
+  },
+  {
+    "name": "ftp.port",
+    "description" : "ftp 端口",
+    "defaultValue": 21
+  },
+  {
+    "name": "ftp.username",
+    "description":"用户名",
+    "defaultValue": "root"
+  },
+  {
+    "name": "ftp.password",
+    "description":"密码",
+    "defaultValue": "123456"
+  },
+  {
+    "name": "ftp.path",
+    "description":"本地文件储存路径",
+    "defaultValue": "/mnt/waters"
+  }
+]}
